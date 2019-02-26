@@ -1,7 +1,7 @@
 # sbc-Moto1
 Raspberry Pi 3 Python Modul motor.py for "sbc-moto1" (Conrad Elektronik) with 1 step motor
 
-Programm / Python Modul für 2 Schrittmotore - Modul "sbc-moto1" (Conrad Elektronik)
+Programm / Python Modul für 1 Schrittmotor - Modul "sbc-moto1" (Conrad Elektronik)
 Autor: Ing. Josef Klotzner
 20190225
 
