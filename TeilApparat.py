@@ -21,7 +21,8 @@ def main ():
     # schreibe hier Dein Hauptprogramm
 
     Teilungen = int (input ("Bitte geben Sie die Anzahl der gewünschten Teilungen ein: "))
-    Pause = float (input ("Bitte geben Sie die Pause (s) zwischen Teilschritten ein: "))
+    Pause = float (input ("Eingabe von -1 ist 'Handpause' (warten auf Taste 'Enter')\n"
+                        "Bitte geben Sie die Pause (s) zwischen Teilschritten ein: "))
 
     liste = Teilungsliste (Teilungen)
     print (liste)
