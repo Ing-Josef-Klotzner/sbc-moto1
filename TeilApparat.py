@@ -27,7 +27,7 @@ def main ():
     liste = Teilungsliste (Teilungen)
     print (liste)
 
-    vorSteps (liste, Pause, 1)
+    vorSteps (liste, Pause, 4)
 
     # Ende Hauptprogramm
 
