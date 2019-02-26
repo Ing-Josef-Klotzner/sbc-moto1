@@ -21,32 +21,13 @@ def main ():
     # schreibe hier Dein Hauptprogramm
 
     Teilungen = int (input ("Bitte geben Sie die Anzahl der gewünschten Teilungen ein: "))
-    Pause = float (input ("Bitte geben Sie die gewünschte Pause (s) zwischen Teilschritten ein: "))
-    #Teilungen = 12
-    #Pause = 1
-#    for i in range (1, 21):
-#        liste = Teilungsliste (i)
-#        print ("Teilungsliste", liste, "Summe", sum (liste))
+    Pause = float (input ("Bitte geben Sie die Pause (s) zwischen Teilschritten ein: "))
+
     liste = Teilungsliste (Teilungen)
     print (liste)
 
     vorSteps (liste, Pause, 1)
 
-#    for i, steps in zip (range (1, Teilungen + 1), liste):
-#        print ("Bewege Motor im Segment", i, "um", steps, "Schritte")
-#        print ("Pause von", Pause, "Sekunden")
-#        sleep (Pause)
-
-#    fak = 1
-#    x2 = False
-#    umdr = 5
-#    print ("Motor 1 macht", umdr, "Umdrehung(en) gegen Uhrzeigersinn, Zeitfaktor", fak, "x2", x2)
-#    retourM1 (umdr * 512, fak, x2)
-
-#    umdr = 5
-#    print ("Motor 1 macht", umdr, "Umdrehung(en) im Uhrzeigersinn, Zeitfaktor", fak, "x2", x2)
-#    vorM1 (umdr * 512, fak, x2)
-    
     # Ende Hauptprogramm
 
 if __name__ == "__main__":

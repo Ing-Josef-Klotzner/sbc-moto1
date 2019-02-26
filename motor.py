@@ -14,9 +14,9 @@ elif version_info.major == 2:
 else:
     print ("Unknown python version - input function not safe")
 """
-Programm / Python Modul für 2 Schrittmotore - Modul "sbc-Moto1" (Conrad Elektronik)
+Programm / Python Modul für 1 Schrittmotor - Modul "sbc-Moto1" (Conrad Elektronik)
 Autor: Ing. Josef Klotzner
-20190111
+20190111 - 20190225
 
 Beschreibung:
 Das Getriebe hat 1/512
